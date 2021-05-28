@@ -188,7 +188,7 @@ table
     background-color:#09b82a;
 }
 
-table td {padding-left: 8px;}
+table td {padding:2px 8px;}
 
 table tr {background-color:#fff;}
 
@@ -197,12 +197,14 @@ table tr th
     color:#fff; 
     background-color:#09b82a;
     padding: 0 3px;
+    height:21px;
 } 
 
 .stTab 
 {
     float:left;
     margin: 0 15px;
+    height: 193px;
 }
 
 .stTab2 
@@ -323,7 +325,7 @@ table tr th
 
 /*Celular em Pé*/
 
-@media screen and (max-width:400px)
+@media screen and (max-width:500px)
 {
     /*Cabeçalho*/
 
@@ -476,7 +478,7 @@ table tr th
 
 /*Celular Deitado*/
 
-@media screen and (min-width:401px) and (max-width:700px)
+@media screen and (min-width:501px) and (max-width:700px)
 {
 
     /*Index*/

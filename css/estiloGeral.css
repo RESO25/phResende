@@ -35,7 +35,6 @@ header
 { 
     background-color: #09b82a;
     padding: 15px;
-    width: 100%;
     min-height:156px;
     font-weight:bold;
 }
@@ -89,6 +88,12 @@ footer
 
 footer img { height: 150px; }
 
+#vid 
+{
+    height: 506px;
+    width: 900px;
+}
+
 /*Contato*/
 
 fieldset
@@ -109,7 +114,7 @@ legend
     background-color: #fff;
 }
 
-label {color:#09b82a; font-size:14pt;}
+label {font-size:14pt;}
 
 input 
 {
@@ -219,31 +224,32 @@ table tr th
 {
     position:absolute;
     left:5%;
-    top:500px;
+    top: 572px;
+    height: 290px;
 }
 
 #ração1 
 {
-    height:300px;
-    position:absolute;
-    right:5%;
-    top:550px;
+    height: 234px;
+    position: absolute;
+    right: 5%;
+    top: 600px;
 }
 
 #gato
 {
     position:absolute;
     left: 2%;
-    top: 1220px;
+    top: 1270px;
     height: 163px;
 }
 
 #ração2 
 {
-    height:245px;
-    position:absolute;
-    right: 2%;
-    top: 1230px;
+    height: 205px;
+    position: absolute;
+    right: 4%;
+    top: 1252px;
 }
 
 /*Profissionais*/
@@ -416,14 +422,14 @@ table tr th
         font-size:12px;
     }
 
-    .prdt 
-    {
-        width:100px;
-    }
-
     .prc 
     {
-        width:54px;
+        width:51px;
+    }
+
+    .peso
+    {
+        width:42px;
     }
 
     .stTab 
@@ -448,7 +454,7 @@ table tr th
 
     table td 
     {
-        padding: 2px;
+        padding: 4px;
     }
 
     /*Contato*/
@@ -478,7 +484,7 @@ table tr th
 
 /*Celular Deitado*/
 
-@media screen and (min-width:501px) and (max-width:700px)
+@media screen and (min-width:501px) and (max-width:750px)
 {
 
     /*Index*/
@@ -488,6 +494,12 @@ table tr th
     .widHead {width:550px; font-weight:bold}
 
     section {width:100%}
+
+    #vid 
+    {
+        width:600px;
+        height:337px;
+    }
 
     /*Profissionais*/
 
@@ -525,14 +537,21 @@ table tr th
         font-size:12px;
     }
 
-    .prdt 
+    table td 
     {
-        width:100px;
+        padding: 2px;
     }
+
+    .tabela img {height:0; width:0;}
 
     .prc 
     {
-        width:54px;
+        width:51px;
+    }
+
+    .peso
+    {
+        width:42px;
     }
 
     .stTab 
@@ -557,41 +576,6 @@ table tr th
         height:0px;
     }
 
-    table td 
-    {
-        padding: 2px;
-    }
-
-    #cão 
-    {   
-        position:absolute;
-        left:10px;
-        height:242px;
-    }
-
-    #ração1 
-    {
-    height: 152px;
-    position: absolute;
-    right: 5%;
-    top: 550px;
-    }
-
-    #gato 
-    {
-        position: absolute;
-        left: 2%;
-        top: 1220px;
-        height: 88px;
-    }
-
-    #ração2 
-    {
-        height: 165px;
-        position: absolute;
-        right: 0%;
-        top: 1193px;
-    }
 
     /*Contato*/
 

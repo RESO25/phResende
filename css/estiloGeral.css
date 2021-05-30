@@ -415,11 +415,38 @@ table tr th
 
     /*Produtos*/
 
-    .tabela img {height:0; width:0;}
-
     table 
     {
         font-size:12px;
+    }
+
+    #cão 
+    {
+        height:160px;
+        position:static;
+        float:left;
+    }
+
+    #ração1
+    {
+        height:157px;
+        position:static;
+        float:right;
+    }
+
+    #gato
+    {
+        position:static;
+        float:left;
+        height:100px;
+        margin-top:40px;
+    }
+
+    #ração2
+    {
+        position:static;
+        float:right;
+        height:140px;
     }
 
     .prc 
@@ -485,15 +512,16 @@ table tr th
 /*Celular Deitado*/
 
 @media screen and (min-width:501px) and (max-width:750px)
-{
-
-    /*Index*/
-
+{    
+    /*Cabeçalho*/
+    
     header {box-sizing: border-box; width:100%;}
 
     .widHead {width:550px; font-weight:bold}
 
     section {width:100%}
+
+    /*Index*/
 
     #vid 
     {
@@ -542,7 +570,27 @@ table tr th
         padding: 2px;
     }
 
-    .tabela img {height:0; width:0;}
+    #cão 
+    {
+        height: 201px;
+    }
+
+    #ração1
+    {
+        height: 160px;
+    }
+
+    #gato
+    {
+        top: 1575px;
+        height: 88px;
+    }
+
+    #ração2
+    {
+        height: 151px;
+        top: 1544px;
+    }
 
     .prc 
     {

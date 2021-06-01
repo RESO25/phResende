@@ -511,7 +511,7 @@ table tr th
 
 /*Celular Deitado*/
 
-@media screen and (min-width:501px) and (max-width:8ta a50px)
+@media screen and (min-width:501px) and (max-width: 850px)
 {    
     /*Cabeçalho*/
     
@@ -519,7 +519,7 @@ table tr th
 
     .widHead {width:550px; font-weight:bold}
 
-    section {width:100%}
+    section {width:90%}
 
     /*Index*/
 
